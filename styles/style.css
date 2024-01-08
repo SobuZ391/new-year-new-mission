@@ -10,16 +10,35 @@ body{
     margin: 0 auto;  
 }
 
-/* Header related styles */
-.banner-content{
-    background-image:linear-gradient(180deg, #080115 0%, rgba(6, 2, 16, 0) 100%), url('../images/Banner\ Image.png');
-    margin-top: 50px;
-    border-radius: 16px;
+.btn-primary{
+    color: #fff;
+    background: #F00;
+    display: inline-flex;
+    padding: 16px 32px;
+    font-size: 18px ;
+    justify-content: center;
     align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    text-transform: uppercase;
+    border: none;
+    font-style: normal;
+
+}
+.banner-content{
+    margin-top: 50px;
     background-color: #ffffff;
-    height: 600px; 
-    border-radius: 16px;
     background-repeat: no-repeat;
+   
+   
+ }
+/* Header related styles */
+.header-banner-content{
+    background-image:linear-gradient(180deg, #080115 0%, rgba(6, 2, 16, 0) 100%), url('../images/Banner\ Image.png');
+    border-radius: 16px;
+    height: 600px; 
+    align-items: center;
+    
  }
 .banner-title{
     color: white;
@@ -71,3 +90,76 @@ body{
     max-width: 802.9px;
     margin: 48px auto;
 }
+
+/* party banner section */
+.party-banner-container{
+    background-image: linear-gradient(100deg, #19171d 0%, rgba(36, 35, 38, 0) 100%), url('../images/Vectorrr.png');
+    height: 600px;   
+    padding: 30px 30px 0px 150px;
+    display: flex;
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    gap: 40px;
+    
+}
+
+.party-banner-title{
+    color: #FFF;
+    font-size: 64px;
+    line-height: 88px; /* 137.5% */
+    letter-spacing: 7.04px;
+    max-width: 642px;;
+}
+
+.party-msg-description{
+    color: rgba(255, 255, 255, 0.80);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+    max-width: 697px;;
+
+}
+/* Address and time details section */
+.party-notice{
+   height: 482px;
+    background-color: #e3d8d8;
+    background-image:  linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    border-radius: 16px;
+    /* justify-content: center; */
+    margin-top: 120px;
+    height: 482px;
+}
+.party-details{
+    align-items: center; 
+  padding-top: 100px;
+  padding-left: 385px;   
+  
+   
+}
+
+.party-details span{
+    color: #F00;
+text-align: center;
+font-family: Inter;
+font-size: 32px;
+font-style: normal;
+font-weight: 600;
+line-height: 56px; /* 175% */
+text-transform: capitalize;
+
+}
+.party-details p{
+    color: #070211;
+    font-family: Inter;
+font-size: 32px;
+font-weight: 600;
+line-height: 56px;
+text-transform: capitalize;
+align-items: center;
+justify-content: center;
+font-style: normal;
+}
+.party-btn{
+   padding-left: 600px;
+}
+
