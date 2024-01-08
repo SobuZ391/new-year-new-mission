@@ -106,7 +106,7 @@ body{
 .party-banner-title{
     color: #FFF;
     font-size: 64px;
-    line-height: 88px; /* 137.5% */
+    line-height: 88px; 
     letter-spacing: 7.04px;
     max-width: 642px;;
 }
@@ -125,16 +125,21 @@ body{
     background-color: #e3d8d8;
     background-image:  linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
     border-radius: 16px;
-    /* justify-content: center; */
-    margin-top: 120px;
+    margin: 120px auto;
     height: 482px;
 }
 .party-details{
-    align-items: center; 
-  padding-top: 100px;
-  padding-left: 385px;   
-  
+    
+padding-top: 10px;
+padding-left: 385px;
+ 
    
+}
+.pd-1{
+    padding-left: 50px;
+}
+.pd-2{
+    padding: 20px;
 }
 
 .party-details span{
@@ -193,7 +198,7 @@ font-family: Inter;
 font-size: 20px;
 font-style: normal;
 font-weight: 400;
-line-height: 32px; /* 160% */
+line-height: 32px; 
 margin-top: 0px;
 }
 .offer-img{
@@ -222,3 +227,205 @@ font-weight: 700;
 height: 140px;
 
 }
+
+.hs-title{
+    color: #070211;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-align: center;
+}
+.hs-info{
+    color: #F00;
+text-align: center;
+font-family: Merriweather;
+font-size: 72px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+}
+.hs-info span{
+    color: #070211;
+font-family: Merriweather;
+font-size: 72px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+}
+.hs-description{
+    color: rgba(7, 2, 17, 0.60);
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 32px; /* 160% */
+}
+/* 
+portfolio section styles */
+.portfolio-title{
+    color: #F00;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-bottom: 16px;
+}
+.portfolio-info{
+    color: #070211;
+font-family: Merriweather;
+font-size: 48px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+text-transform: capitalize;
+margin-top: 0px;
+margin-bottom: 22px;
+}
+.portfolio-description{
+    color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; /* 160% */
+}
+.portfolio-section{
+    max-width:1320px;
+  
+
+}
+.pf-img{
+    display: flex;
+    justify-content: space-between;
+ 
+   gap: 24px;
+   margin-bottom:24px ;
+   
+}
+.pf-img{
+    width: 424px;
+height: 450px;
+border-radius: 16px;
+background:  lightgray 50% /cover no-repeat ;
+
+
+
+}
+/* Newslletter section styles */
+.newsletter-content{
+    width: 1320px;
+height: 616px;
+border-radius: 16px;
+background: rgba(255, 0, 0, 0.05);
+text-align: center;
+}
+.newsletter-img{
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+.newsletter-title{
+    color: #070211;
+text-align: center;
+font-family: Merriweather;
+font-size: 48px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+text-transform: capitalize;
+margin-top: 0px;
+}
+.newsletter-description{
+    color: rgba(7, 2, 17, 0.60);
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; /* 160% */
+margin-top: 22px;
+width: 896px;
+margin-left: 212px;
+
+}
+.email{width: 438px;
+    height: 72px;
+   
+    border-radius: 50px 0px 0px 50px; 
+background: #FFF;
+text-align: center;
+border: none;
+ }
+ .btn-news{
+    width: 210px;
+height: 72px;
+flex-shrink: 0;
+border-radius: 0px 50px 50px 0px;
+background: #F00;
+border: none;
+color: white;
+
+ }
+ /* footer section work */
+ .footer-content{
+    background: #070211;
+   max-width: 100%;
+height: 609px;}
+
+.footerintro-content{
+   
+display: flex;
+
+justify-content: space-between;
+
+}
+
+ 
+ .footer-intro{
+    color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+margin: 120px auto;
+width: 375px;
+height: 65px;
+padding-left:140px ;
+
+
+ }
+.footer-contact{
+    color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+margin: auto;
+padding: 120px;
+
+}
+.social-icon{
+    width: 64px;
+height: 64px;
+
+display: flex;
+margin-left: 600px;
+padding: 40px;
+gap: 24px;
+align-items: center;
+}
+
+.rights {
+    color: #FFF;
+font-family: Inter;
+font-size: 22px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+display: flex;
+justify-content: space-around;
+}
+
